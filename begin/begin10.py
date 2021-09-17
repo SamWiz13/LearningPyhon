@@ -1,0 +1,6 @@
+a = int(input("a ="))
+b = int(input("b ="))
+print("Yig'indisi: ",a +b)
+print("Ko'paytmasi: ", a*b)
+print("KV a: ",a*a)
+print("KV b: ",b*b)

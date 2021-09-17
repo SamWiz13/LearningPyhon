@@ -1,0 +1,8 @@
+f = open("..\\filee")
+a = f.read()
+f.close()
+f = open("file8","a")
+f.write(a)
+f.close()
+f=open("file8")
+print(f.read())

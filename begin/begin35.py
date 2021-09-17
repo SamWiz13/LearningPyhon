@@ -1,0 +1,6 @@
+v = int(input("V :"))
+u = int(input("U :"))
+t1 = int(input("T1 :"))
+t2 = int(input("T2 :"))
+s = t1*(v +u)+t2*(v-u)
+print("S :",s)

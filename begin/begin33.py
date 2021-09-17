@@ -1,0 +1,5 @@
+x = int(input("x kg:"))
+a = int(input("a so'm:"))
+print("1 kg konfet nraxi:",a/x)
+y = int(input("y :"))
+print("Natija:",y*a/x)

@@ -1,0 +1,13 @@
+s = input(' s = ')
+f = open("file7")
+a = f.read()
+f.close()
+f = open("file7","w")
+f.write(s)
+f.close()
+f = open("file7","a")
+f.write(a)
+f.close()
+f=open("file7")
+print(f.read())
+
